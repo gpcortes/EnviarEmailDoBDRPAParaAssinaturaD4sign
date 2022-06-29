@@ -1,9 +1,9 @@
 version: '3.9'
 
 services:
-  EnviarEmailDoBDRPAParaAssinaturaD4signTask:
-    image: enviaremaildodbparaassinaturad4signtask
-    hostname: EnviarEmailDoBDPAParaAssinaturaD4signTask
+  EnviarEmailDoBDRPAParaAssinaturaD4sign:
+    image: enviaremaildodbparaassinaturad4sign
+    hostname: EnviarEmailDoBDRPAParaAssinaturaD4sign
     restart: unless-stopped
     build:
       context: .
